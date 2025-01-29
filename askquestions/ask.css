@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Inter", serif;
+}
+body{
+   background-color: #F8FAFC; 
+   min-height: 100hv;
+   display: flex;
+   flex-direction: column;
+
+
+}
+header{
+   background-color: white;
+   background-position: top;
+   padding: 40px;
+   text-align: center;
+}
+header h1{
+   font-size: 2.25rem;
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+header p{
+   margin-bottom: 20px;
+}
+h2{
+   font-size: 1.5rem;   
+}
+
+a{
+   text-decoration: none;
+   color: #4E80EE;
+}
+ol li, ul li{
+   font-size: 1rem;
+   font-weight: 400;
+   text-indent: 20em;
+   list-style-position: inside;
+   margin-bottom: 10px;
+   
+}
+section{
+   font-size: 1rem;
+   padding: 20px;
+}
+#order{
+   text-indent: 20em;
+   font-size: 1rem;
+   padding-bottom: 5px; 
+}
+#policy h2{
+   margin-top: 40px;
+   margin-bottom: 10px;
+}
+hr{
+   color: #D2D5DA;
+   margin-top: 30px; 
+}
+#policy{
+   text-indent: 20em;
+   font-size: 1rem;
+   
+}
+
+#order h2{
+   margin-top: 50px;
+   margin-bottom: 10px;
+}
+
+section ol, ul{
+   text-indent: 20em;
+}
+#track p{
+   padding: 15px 0;
+}
+
+/* Global Styles */
+   #order, #policy  {
+      text-indent: 20em; 
+      padding: 10px;
+      margin-bottom: 10px;
+}
+
+/* For screens 1280px and above */
+@media (min-width: 1280px) {
+   #order, #policy  {
+       text-indent: 20em; 
+   }
+}
+
+/* For screens between 1024px and 1279px */
+@media (max-width: 1024px) {
+   #order, #policy  {
+       text-indent: 20em; 
+   }
+}
+
+/* For screens below 640px */
+@media (max-width: 640px) {
+  #order, #policy{
+   text-indent: 0;
+  }
+}
